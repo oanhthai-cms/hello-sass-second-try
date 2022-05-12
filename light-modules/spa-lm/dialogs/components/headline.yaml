@@ -1,0 +1,8 @@
+label: Headline
+form:
+  properties:
+    text:
+      label: Headline
+      $type: textField
+      i18n: true
+      

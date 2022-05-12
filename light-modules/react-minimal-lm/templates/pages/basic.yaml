@@ -1,6 +1,6 @@
 title: 'React: Basic'
 
-baseUrl: http://localhost:3000
+baseUrl: https://nimble-speculoos-a798ef.netlify.app
 routeTemplate: '/{language}{{@path}}'
 
 dialog: spa-lm:pages/basic

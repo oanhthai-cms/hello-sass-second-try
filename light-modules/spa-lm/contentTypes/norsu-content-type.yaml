@@ -1,0 +1,19 @@
+datasource:
+  $type: norsuContentTypeDatasource
+  workspace: nucleus-test
+  autoCreate: true
+  
+model:
+  properties:
+    company.name:
+      label: my name
+      $type: textField
+    subModel1:
+      type: SubModel1
+      multiple: true
+  subModels:
+    - name: SubModel1
+      properties:
+        - name: text
+        - name: date
+          type: Date

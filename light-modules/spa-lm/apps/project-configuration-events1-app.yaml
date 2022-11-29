@@ -1,0 +1,9 @@
+name: configuration-events1-app
+class: info.magnolia.ui.contentapp.configuration.ContentAppDescriptor
+appClass: info.magnolia.ui.framework.app.BaseApp
+icon: icon-configuration-app
+subApps:
+  configuration-monitor:
+    class: info.magnolia.ui.framework.app.embedded.EmbeddedPageSubAppDescriptor
+    subAppClass: info.magnolia.ui.framework.app.embedded.EmbeddedPageSubApp
+    url: http://localhost:4242/dazf7vanu6gen84u/logs

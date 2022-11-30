@@ -1,0 +1,40 @@
+#class: info.magnolia.rest.delivery.norsu.NorsuDeliveryEndpointDefinition
+$type: deliveryEndpoint_v2
+depth: 10
+includeSystemProperties: false
+#systemProperties:
+# - mgnl:last
+# - mgnl:tag
+referenceDepth: 5
+#nodeTypes:
+#  - mgnl:test
+references:
+  - name: norsuCombo
+    propertyName: norsuCombo
+    referenceResolver:
+      $type: norsuReferenceResolver
+  - name: link
+    propertyName: link
+    referenceResolver:
+      $type: norsuReferenceResolver
+  - name: image
+    propertyName: image
+    referenceResolver:
+      $type: assetReferenceResolver
+      assetRenditions:
+        - '480'
+        - 1600x1200
+  - name: destinations
+    propertyName: image
+    referenceResolver:
+      class: info.magnolia.rest.reference.jcr.JcrReferenceResolverDefinition
+      targetWorkspace: dam
+  - name: body
+    propertyName: body
+    referenceResolver:
+      class: info.magnolia.rest.reference.dam.AssetReferenceResolverDefinition
+      includeAssetMetadata: true
+  - name: referenceWithRichText
+    propertyName: foo
+    referenceResolver:
+      $type: norsuRichTextReferenceResolver

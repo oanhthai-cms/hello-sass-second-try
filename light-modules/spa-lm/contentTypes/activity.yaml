@@ -10,7 +10,7 @@ model:
       required: true
     name: link
       label: link
-     type: reference:activity
+      type: reference:activity
     # content2:
     #   type: richText
     #   label: Description

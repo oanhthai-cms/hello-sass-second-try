@@ -5,7 +5,7 @@ includeSystemProperties: false
 #systemProperties:
 # - mgnl:last
 # - mgnl:tag
-referenceDepth: 6
+referenceDepth: 7
 #nodeTypes:
 #  - mgnl:test
 references:

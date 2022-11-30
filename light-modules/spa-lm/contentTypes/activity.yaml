@@ -8,6 +8,9 @@ model:
       label: Name
       i18n: true
       required: true
+    name: link
+      label: link
+     type: reference:activity
     # content2:
     #   type: richText
     #   label: Description

@@ -8,7 +8,7 @@ model:
       label: Name
       i18n: true
       required: true
-    name: link
+    link: 
       label: link
       type: reference:activity
     # content2:

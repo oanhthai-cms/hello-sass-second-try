@@ -5,17 +5,17 @@ model:
   nodeType: activity
   properties:
     name:
-      label: Name 2
+      label: Name
       i18n: true
       required: true
-    content2:
-      type: richText
-      label: Description
-      i18n: true
-      required: false
-    content:
-      type: richText
-      label: Description
-      i18n: true
-      required: false
+    # content2:
+    #   type: richText
+    #   label: Description
+    #   i18n: true
+    #   required: false
+    # content:
+    #   type: richText
+    #   label: Description
+    #   i18n: true
+    #   required: false
 

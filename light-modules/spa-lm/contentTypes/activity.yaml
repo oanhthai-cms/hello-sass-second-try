@@ -9,7 +9,7 @@ model:
       i18n: true
       required: true
     link: 
-      label: link1
+      label: link1dd
       type: reference:activity
     # content2:
     #   type: richText
